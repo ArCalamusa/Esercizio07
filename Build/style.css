@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Roboto:wght@400;500&display=swap');
+
+a{text-decoration: none;}
+
+body {
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    line-height: 28px;
+    font-size: 16px;
+    background-color: whitesmoke;
+}
+
+.container {
+    padding: 32px 32px 0 32px;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-info {
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1, p {
+    margin-bottom: 12px;
+    color: #4539c8;
+    font-family: 'Roboto', sans-serif;
+}
+
+p, ul {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-bottom: 8px;
+    list-style: none;
+}
+
+p, ul li {
+    font-size: 16px;
+    line-height: 20px;
+    margin-right: 16px;
+    padding-bottom: 4px;
+    color: #ea4c89;
+}
+
+p, ul li:first-of-type {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #6e6d7a;
+    
+}
+
+.navBar, .navBar ul {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.navBar ul li {
+    padding: 10px 12px;
+    color: #6e6d7a;
+    list-style: none;
+}
+
+.navBar li:hover {
+    border-radius: 8px;
+    background: rgba(13, 12, 34, 0.05);
+}
+
+.navBar div {
+    border-radius: 8px;
+    box-shadow: 0 0 0 1px #e7e7e9 inset;
+    padding: 10px 16px;
+}
+
+.card img {
+    width: 320px;
+    height: 255px;
+}
+
+.card-info img {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.card-info img, span {
+    font-weight: 600;
+}
+
+.card-info div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-info div:last-of-type span {
+    margin-right: 5px;
+}
+
+.card-info div:last-of-type {
+    color: #3d3d4e;
+}
+
+.card-info div:first-of-type div:last-of-type {
+    border-radius: 3px;
+    background: #ccc;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 1;
+    text-transform: uppercase;  /*testo tutto maiuscolo*/
+    padding: 2px 3px;
+    margin-left: 5px;
+}
+
+#back-to-top {
+    text-decoration: none;
+}
